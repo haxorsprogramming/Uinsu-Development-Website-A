@@ -50,10 +50,10 @@
         </div>
 
         <div class="header-inner-pages">
-            <div class="top">
+            <div class="top" style="background-color: #26de81;">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
+                    <div class="row" >
+                        <div class="col-md-12" >
                             <nav class="navbar menu-top">
                                 <ul class="menu"> 
                                     <li class="home">
@@ -123,13 +123,13 @@
         </div><!-- header-inner-pages -->
 
         <!-- Header -->
-        <header id="header" class="header">
+        <header id="header" class="header" style="background-color:#20bf6b;">
             <div class="header-wrap">
                 <div class="container">
                     <div class="header-wrap clearfix">
                         <div id="logo" class="logo">
                             <a href="index.html" rel="home">
-                                <img src="images/logo.png" alt="image">
+                                <img src="<?=STYLEBASE; ?>/login/images/logo_utama.png" width="250px;" alt="image">
                             </a>
                         </div><!-- /.logo -->
 
@@ -234,17 +234,26 @@
             <div class="tp-banner" >
                 <ul>
                     <li data-transition="slidedown" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
-                        <img src="images/slides/1.jpg" alt="slider-image">
+                        <img src="<?=STYLEBASE; ?>/login/images/slides/1.jpg" alt="slider-image">
 
                         <div class="tp-caption sft desc-slide center color-white color-full" data-x="770" data-y="479" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
-                            <div class="title main-color-1 font-2">For A Better Education Theme</div>
-                            <div class="content">Search no more! What you ever want for an education website is here</div>
+                            <div class="title main-color-1 font-2">Uinsu Juara</div>
+                            <div class="content">Welcome to Official Website of Islamic State University of North Sumatera</div>
                         </div>
 
                     </li>
 
                     <li data-transition="slidedown" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
-                        <img src="images/slides/2.jpg" alt="slider-image">
+                        <img src="<?=STYLEBASE; ?>/login/images/slides/2.jpg" alt="slider-image">
+
+                        <div class="tp-caption sft desc-slide center color-white color-full" data-x="770" data-y="479" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
+                            <div class="title main-color-1 font-2">Best Campus Facility In The World</div>
+                            <div class="content">We offer the best infrastructure to give you the best opportunities and comfort during your study.</div>
+                        </div>
+                    </li>
+
+                    <li data-transition="slidedown" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
+                        <img src="<?=STYLEBASE; ?>/login/images/slides/3.jpg" alt="slider-image">
 
                         <div class="tp-caption sft desc-slide center color-white color-full" data-x="770" data-y="479" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
                             <div class="title main-color-1 font-2">Best Campus Facility In The World</div>
@@ -256,14 +265,14 @@
         </div> <!-- /.tp-banner-container -->
 
         <div class="header-overlay-content header-overlay-scroller">
-            <div class="container">
+            <div class="container" >
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-5" style='margin-top:12px;'>
                         <section class="un-post-scroller un-post-scroller-2901 " data-delay="0">
                             <div class="section-inner-no-padding">
                                 <div class="post-scroller-wrap verticalCarousel">
                                     
-                                    <div class="post-scroller-carousel ">
+                                    <div class="post-scroller-carousel" >
                                         <div class="post-scroller-carousel-inner verticalCarouselGroup vc_list">
                                             <div class="item post-scroller-item active">
                                                 <div class="scroller-item-inner">
@@ -272,7 +281,7 @@
                                                             <div class="col-md-4 col-sm-4 col-xs-4 post-thumbnail-mini">
                                                                 <div class="item-thumbnail">
                                                                     <a href="#">
-                                                                        <img src="images/about/index1/1.jpg" alt="image">
+                                                                        <img src="<?=STYLEBASE; ?>/login/images/about/index1/1.jpg" alt="image">
                                                                         <div class="thumbnail-hoverlay main-color-1-bg"></div>
                                                                         <div class="thumbnail-hoverlay-cross"></div>
                                                                     </a>
@@ -294,7 +303,7 @@
                                                             <div class="col-md-4 col-sm-4 col-xs-4 post-thumbnail-mini">
                                                                 <div class="item-thumbnail">
                                                                     <a href="#">
-                                                                        <img src="images/about/index1/2.jpg" alt="image">
+                                                                        <img src="<?=STYLEBASE; ?>/login/images/about/index1/1.jpg" alt="image">
                                                                         <div class="thumbnail-hoverlay main-color-1-bg"></div>
                                                                         <div class="thumbnail-hoverlay-cross"></div>
                                                                     </a>
@@ -316,7 +325,7 @@
                                                             <div class="col-md-4 col-sm-4 col-xs-4 post-thumbnail-mini">
                                                                 <div class="item-thumbnail">
                                                                     <a href="#">
-                                                                        <img src="images/about/index1/3.jpg" alt="image">
+                                                                        <img src="<?=STYLEBASE; ?>/login/images/about/index1/1.jpg" alt="image">
                                                                         <div class="thumbnail-hoverlay main-color-1-bg"></div>
                                                                         <div class="thumbnail-hoverlay-cross"></div>
                                                                     </a>
@@ -338,7 +347,7 @@
                                                             <div class="col-md-4 col-sm-4 col-xs-4 post-thumbnail-mini">
                                                                 <div class="item-thumbnail">
                                                                     <a href="#">
-                                                                        <img src="images/about/index1/4.jpg" alt="image">
+                                                                        <img src="<?=STYLEBASE; ?>/login/images/about/index1/1.jpg" alt="image">
                                                                         <div class="thumbnail-hoverlay main-color-1-bg"></div>
                                                                         <div class="thumbnail-hoverlay-cross"></div>
                                                                     </a>
@@ -360,7 +369,7 @@
                                                             <div class="col-md-4 col-sm-4 col-xs-4 post-thumbnail-mini">
                                                                 <div class="item-thumbnail">
                                                                     <a href="#">
-                                                                        <img src="images/about/index1/5.jpg" alt="image">
+                                                                        <img src="<?=STYLEBASE; ?>/login/images/about/index1/5.jpg" alt="image">
                                                                         <div class="thumbnail-hoverlay main-color-1-bg"></div>
                                                                         <div class="thumbnail-hoverlay-cross"></div>
                                                                     </a>
@@ -382,7 +391,7 @@
                                                             <div class="col-md-4 col-sm-4 col-xs-4 post-thumbnail-mini">
                                                                 <div class="item-thumbnail">
                                                                     <a href="#">
-                                                                        <img src="images/about/index1/6.jpg" alt="image">
+                                                                        <img src="<?=STYLEBASE; ?>/login/images/about/index1/6.jpg" alt="image">
                                                                         <div class="thumbnail-hoverlay main-color-1-bg"></div>
                                                                         <div class="thumbnail-hoverlay-cross"></div>
                                                                     </a>
@@ -404,7 +413,7 @@
                                                             <div class="col-md-4 col-sm-4 col-xs-4 post-thumbnail-mini">
                                                                 <div class="item-thumbnail">
                                                                     <a href="#">
-                                                                        <img src="images/about/index1/7.jpg" alt="image">
+                                                                        <img src="<?=STYLEBASE; ?>/login/images/about/index1/7.jpg" alt="image">
                                                                         <div class="thumbnail-hoverlay main-color-1-bg"></div>
                                                                         <div class="thumbnail-hoverlay-cross"></div>
                                                                     </a>
@@ -432,9 +441,9 @@
             </div>
         </div>
 
-        <section class="flat-row no-padding">
-            <div class="flat-fluid">
-                <div class="container">
+        <section class="flat-row no-padding" >
+            <div class="flat-fluid"  style="background-color:#20bf6b;">
+                <div class="container" >
                     <div class="row">
                         <div class="col-md-4">
                             <div class="post">
@@ -476,7 +485,7 @@
                             <div class="col-md-4">
                                 <div class="item-post">
                                     <div class="content-box">
-                                        <img src="images/about/index1/8.jpg" alt="image">
+                                        <img src="<?=STYLEBASE; ?>/login/images/about/index1/8.jpg" alt="image">
                                     </div>
                                     <div class="title-box">
                                         <h4>New York Campus</h4>
@@ -488,7 +497,7 @@
                             <div class="col-md-4">
                                 <div class="item-post">
                                     <div class="content-box">
-                                        <img src="images/about/index1/9.jpg" alt="image">
+                                        <img src="<?=STYLEBASE; ?>/login/images/about/index1/9.jpg" alt="image">
                                     </div>
                                     <div class="title-box">
                                         <h4>Europe Campus</h4>
@@ -500,7 +509,7 @@
                             <div class="col-md-4">
                                 <div class="item-post">
                                     <div class="content-box">
-                                        <img src="images/about/index1/10.jpg" alt="image">
+                                        <img src="<?=STYLEBASE; ?>/login/images/about/index1/10.jpg" alt="image">
                                     </div>
                                     <div class="title-box">
                                         <h4>Singapore Campus</h4>
@@ -539,7 +548,7 @@
                                 <div class="grid-item-inner">
                                     <div class="event-item">
                                         <div class="event-thumbnail">
-                                            <a href="#"><img src="images/about/index1/event/gril/1.jpg" alt="image">
+                                            <a href="#"><img src="<?=STYLEBASE; ?>/login/images/about/index1/event/gril/1.jpg" alt="image">
                                             </a>
                                         </div><!-- /event-thumbnail -->
 
@@ -572,7 +581,7 @@
                                     <div class="event-item">
                                         <div class="event-thumbnail">
                                             <a href="#">
-                                                <img src="images/about/index1/event/gril/2.jpg" alt="image">
+                                                <img src="<?=STYLEBASE; ?>/login/images/about/index1/event/gril/2.jpg" alt="image">
                                             </a>
                                         </div><!-- /event-thumbnail -->
                                         
@@ -605,7 +614,7 @@
                                     <div class="event-item">
                                         <div class="event-thumbnail">
                                             <a href="#">
-                                                <img src="images/about/index1/event/gril/3.jpg" alt="image">
+                                                <img src="<?=STYLEBASE; ?>/login/images/about/index1/event/gril/3.jpg" alt="image">
                                             </a>
                                         </div><!-- /event-thumbnail -->
                                         
@@ -638,7 +647,7 @@
                                     <div class="event-item">
                                         <div class="event-thumbnail">
                                             <a href="#">
-                                                <img src="images/about/index1/event/gril/4.jpg" alt="image">
+                                                <img src="<?=STYLEBASE; ?>/login/images/about/index1/event/gril/4.jpg" alt="image">
                                             </a>
                                         </div><!-- /event-thumbnail -->
                                         
@@ -671,7 +680,7 @@
                                     <div class="event-item">
                                         <div class="event-thumbnail">
                                             <a href="#">
-                                                <img src="images/about/index1/event/gril/5.jpg" alt="image">
+                                                <img src="<?=STYLEBASE; ?>/login/images/about/index1/event/gril/5.jpg" alt="image">
                                             </a>
                                         </div><!-- /event-thumbnail -->
                                         
@@ -704,7 +713,7 @@
                                     <div class="event-item">
                                         <div class="event-thumbnail">
                                             <a href="#">
-                                                <img src="images/about/index1/event/gril/6.jpg" alt="image">
+                                                <img src="<?=STYLEBASE; ?>/login/images/about/index1/event/gril/6.jpg" alt="image">
                                             </a>
                                         </div><!-- /event-thumbnail -->
                                         
@@ -737,7 +746,7 @@
                                     <div class="event-item">
                                         <div class="event-thumbnail">
                                             <a href="#">
-                                                <img src="images/about/index1/event/gril/7.jpg" alt="image">
+                                                <img src="<?=STYLEBASE; ?>/login/images/about/index1/event/gril/7.jpg" alt="image">
                                             </a>
                                         </div><!-- /event-thumbnail -->
                                         
@@ -862,7 +871,7 @@
                                                         <div class="content-pad">
                                                             <div class="item-thumbnail">
                                                                 <a href="#">
-                                                                    <img src="images/about/index1/blog/1.jpg" alt="image">
+                                                                    <img src="<?=STYLEBASE; ?>/login/images/about/index1/blog/1.jpg" alt="image">
                                                                     <span class="thumbnail-overlay">June 3, 2014</span>
                                                                 </a>
                                                             </div>
@@ -893,7 +902,7 @@
                                                         <div class="content-pad">
                                                             <div class="item-thumbnail">
                                                                 <a href="#">
-                                                                    <img src="images/about/index1/blog/2.jpg" alt="image">
+                                                                    <img src="<?=STYLEBASE; ?>/login/images/about/index1/blog/2.jpg" alt="image">
                                                                     <span class="thumbnail-overlay">June 3, 2014</span>
                                                                 </a>
                                                             </div>
@@ -941,7 +950,7 @@
 
                                         <div class="title-testimonial">
                                             <div class="thumb-title">
-                                                <img src="images/member/1.jpg" alt="image">
+                                                <img src="<?=STYLEBASE; ?>/login/images/member/1.jpg" alt="image">
                                             </div>
                                             <div class="post-title">
                                                 <h6 class="title-post">John Doe</h6>
@@ -956,7 +965,7 @@
                                         </div>
                                         <div class="title-testimonial">
                                             <div class="thumb-title">
-                                                <img src="images/member/2.jpg" alt="image">
+                                                <img src="<?=STYLEBASE; ?>/login/images/member/2.jpg" alt="image">
                                             </div>
                                             <div class="post-title">
                                                 <h6 class="title-post">Mr.John</h6>
@@ -971,7 +980,7 @@
                                         </div>
                                         <div class="title-testimonial">
                                             <div class="thumb-title">
-                                                <img src="images/member/3.jpg" alt="image">
+                                                <img src="<?=STYLEBASE; ?>/login/images/member/3.jpg" alt="image">
                                             </div>
                                             <div class="post-title">
                                                 <h6 class="title-post">Vicky</h6>
@@ -996,7 +1005,7 @@
                             <h4>There are many features available to help you complete your project</h4>
                         </div>
                         <div class="img-news">
-                            <img src="images/about/index1/11.jpg" alt="image">
+                            <img src="<?=STYLEBASE; ?>/login/images/about/index1/11.jpg" alt="image">
                         </div>
                     </div>
                 </div>    
@@ -1279,7 +1288,7 @@
                                             <div class="thumb images-hover">
                                                 <div class="overlay"></div>
                                                 <a href="#">
-                                                    <span><img src="images/flickr/1.jpg" alt="image"></span>
+                                                    <span><img src="<?=STYLEBASE; ?>/login/images/flickr/1.jpg" alt="image"></span>
                                                 </a>
                                             </div>
                                         </li>
@@ -1287,7 +1296,7 @@
                                             <div class="thumb images-hover">
                                                 <div class="overlay"></div>
                                                 <a href="#">
-                                                    <span><img src="images/flickr/2.jpg" alt="image"></span>
+                                                    <span><img src="<?=STYLEBASE; ?>/login/images/flickr/2.jpg" alt="image"></span>
                                                 </a>
                                             </div>
                                         </li>
@@ -1295,7 +1304,7 @@
                                             <div class="thumb images-hover">
                                                 <div class="overlay"></div>
                                                 <a href="#">
-                                                    <span><img src="images/flickr/3.jpg" alt="image"></span>
+                                                    <span><img src="<?=STYLEBASE; ?>/login/images/flickr/3.jpg" alt="image"></span>
                                                 </a>
                                             </div>
                                         </li>                            
@@ -1303,7 +1312,7 @@
                                             <div class="thumb images-hover images-hover">
                                                 <div class="overlay"></div>
                                                 <a href="#">
-                                                    <span><img src="images/flickr/4.jpg" alt="image"></span>
+                                                    <span><img src="<?=STYLEBASE; ?>/login/images/flickr/4.jpg" alt="image"></span>
                                                 </a>
                                             </div>
                                         </li>
@@ -1311,7 +1320,7 @@
                                             <div class="thumb images-hover">
                                                 <div class="overlay"></div>
                                                 <a href="#">
-                                                    <span><img src="images/flickr/5.jpg" alt="image"></span>
+                                                    <span><img src="<?=STYLEBASE; ?>/login/images/flickr/5.jpg" alt="image"></span>
                                                 </a>
                                             </div>
                                         </li>
@@ -1319,7 +1328,7 @@
                                             <div class="thumb images-hover">
                                                 <div class="overlay"></div>
                                                 <a href="#">
-                                                    <span><img src="images/flickr/6.jpg" alt="image"></span>
+                                                    <span><img src="<?=STYLEBASE; ?>/login/images/flickr/6.jpg" alt="image"></span>
                                                 </a>
                                             </div>
                                         </li>
@@ -1370,9 +1379,9 @@
             </div>
         </footer>
 
-        <!-- Javascript -->
-        <script type="text/javascript" src="<?=STYLEBASE; ?>/login/javascript/jquery.min.js"></script>
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+        <!-- Javascript
+        <script type="text/javascript" src="/login/javascript/jquery.min.js"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script type="text/javascript" src="<?=STYLEBASE; ?>/login/javascript/bootstrap.min.js"></script>
         <script type="text/javascript" src="<?=STYLEBASE; ?>/login/javascript/jquery.easing.js"></script>
         <script type="text/javascript" src="<?=STYLEBASE; ?>/login/javascript/jQuery.verticalCarousel.js"></script>
