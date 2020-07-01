@@ -1,0 +1,11 @@
+{
+    "name": "haxorsprogramming/uisu-development-website-a",
+    "description": "Pengembangan website kampus uinsu versi A",
+    "authors": [
+        {
+            "name": "haxorsprogramming",
+            "email": "haxorsuinsu@gmail.com"
+        }
+    ],
+    "require": {}
+}
