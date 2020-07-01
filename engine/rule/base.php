@@ -6,12 +6,12 @@
 /**
 * URL base, jika di upload ke hosting, perhatikan http/https, karena akan berpengaruh
 */
-$homeBase = 'http://localhost/Uinsu-Web-Framework/';
+$homeBase = 'http://localhost/Uinsu-Development-Website-A/';
 
 /**
 * Site name (nama situs web)
 */
-$siteName = 'Uinsu Web Framework';
+$siteName = 'Uinsu Web Development';
 
 /**
 * Author (Pengembang / pemilik website)
